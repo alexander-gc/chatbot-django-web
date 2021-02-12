@@ -1,0 +1,45 @@
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 1fr;
+    justify-content: center;
+    align-items: center;
+    margin-left: 570px;
+}
+
+.form-content {
+    width: 30%;
+}
+
+form {
+    align-items: center;
+    justify-content: center;
+
+}
+
+input {
+    padding: 10px;
+}
+
+button {
+    width: 35%;
+    padding: 5px;
+}
+
+input, 
+button {
+    display: block;
+    margin: 10px;
+}
+
+h3 {
+    margin-left: 35px;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+    align-items: center;
+    margin-left: 80px;
+}
